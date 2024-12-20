@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Skapa profil</title>
+</head>
+<body>
+	<form action="/Teams" method="POST">
+		<input type="text" name="teamName" placeholder="Lagnamn" required>
+		<input type="text" name="city" placeholder="Stad" required>
+		<input type="number" name="players" min="6" max="13" placeholder="Antal spelare" required>
+		<button type="submit">Lägg till lag</button>
+	</form>
+</body>
+</html>

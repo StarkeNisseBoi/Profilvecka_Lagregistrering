@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>%{profileName}% - Profil</title>
+</head>
+<body>
+    <h2>Lag namn</h2>
+    <p>%{teamName}%</p>
+    <h2>Stad</h2>
+    <p>%{city}%</p>
+    <h2>Antal lagmedlemmar</h2>
+    <p>%{players}%</p>
+</body>
+</html>
